@@ -2,7 +2,7 @@
 04/06/2020 (UK date format)
 
 ### Project Title
-Replace the Project Title
+Analysis of bikeshare data with R
 
 ### Description
 Describe what your project is about and what it does
