@@ -5,7 +5,7 @@
 Analysis of bikeshare data with R
 
 ### Description
-Describe what your project is about and what it does
+A graphical analysis of the dataset taken from a bikeshare company. Explores 3 different cities and probes the data for answers to 3 different questions
 
 ### Files used
 Include the files used
