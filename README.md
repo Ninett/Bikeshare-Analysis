@@ -8,7 +8,8 @@ Analysis of bikeshare data with R
 A graphical analysis of the dataset taken from a bikeshare company. Explores 3 different cities and probes the data for answers to 3 different questions
 
 ### Files used
-Include the files used
+https://www.capitalbikeshare.com/system-data
+available to download
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+data: capitalbikeshare.com
