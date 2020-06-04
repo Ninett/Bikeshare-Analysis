@@ -32,7 +32,7 @@ ggplot(aes(x=User.Type), data = subset(ny, User.Type !="")) +
 
 #This chart shows that in New York, the majority of users are subscribers, not passholder customers. There were about 10 times as many subscribers as customers, with Customers at roughly 5500 people and Subscribers at 49000. 119 uses were documented as empty cells, and this data was removed for clarity.
 
-#Which stations in Washington were used as the end point the most?
+#Which stations (in Washington) were used as the end point the most?
 
 #load in data and settings
 Loaddata()
