@@ -18,7 +18,7 @@ Loaddata = function(){
     theme_set(theme_minimal(10))
 }
 
-# How many of each user type used the Bikeshare in New York?
+# How many of each user type used the Bikeshare (in New York)?
 
 #Load in data and settings
 Loaddata()
@@ -30,7 +30,7 @@ ggplot(aes(x=User.Type), data = subset(ny, User.Type !="")) +
     xlab('User Type') +
     ylab('User Count')
 
-#This chart shows that in New York, the majority of users are subscribers, not passholder customers. There were about 10 times as many subscribers as customers, with Customers at roughly 5500 people and Subscribers at 49000. 119 uses were documented as empty cells, and this data was removed for clarity. 
+#This chart shows that in New York, the majority of users are subscribers, not passholder customers. There were about 10 times as many subscribers as customers, with Customers at roughly 5500 people and Subscribers at 49000. 119 uses were documented as empty cells, and this data was removed for clarity.
 
 #Which stations in Washington were used as the end point the most?
 
@@ -63,6 +63,6 @@ ggplot(aes(y=Trip.Duration/60, x=2017-Birth.Year), data=chi) +
     xlab('Age[in years]') +
     ylab('Ride Duration [in minutes]')
 
-#The data show that the majority of rides were made by people between ages 20 to about 65. The longest rides were made by people under 50, and the most heavily populated area of the graph is for those between ages 25-38 who travelled for less than 15 minutes. Outliers in the dataset were removed (including people over the age of 100 and people who cycled over 100 minutes). There is no direct corelation between age and time cycled. 
+#The data show that the majority of rides were made by people between ages 20 to about 65. The longest rides were made by people under 50, and the most heavily populated area of the graph is for those between ages 25-38 who travelled for less than 15 minutes. Outliers in the dataset were removed (including people over the age of 100 and people who cycled over 100 minutes). There is no direct corelation between age and time cycled.
 
 system('python -m nbconvert Explore_bikeshare_data.ipynb')
